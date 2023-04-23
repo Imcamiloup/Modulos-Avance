@@ -22,4 +22,17 @@ function DecimalABinario(num) {
 module.exports = {
    BinarioADecimal,
    DecimalABinario,
-};
+};//no
+class BinarioADecimal {
+   constructor(num) {
+      this.num = num;
+   }
+   getDecimal() {
+      var decimal=0;
+      for (let i=0; i<this.num.length;i++){
+         decimal=decimal+this.num[i]*2**(this.num.length-i-1);
+      }
+      return decimal;
+   }
+}
+

@@ -1,0 +1,146 @@
+x = 1;
+var a = 5;
+var b = 15;
+var c = function (a, b, c) {
+   var x = 10;
+   var b=8
+   console.log(x);
+   console.log(a);
+   console.log(b)
+   var f = function (a, b, c) {
+      b = a;
+      console.log(b);
+      b = 5;
+      console.log(b)
+      var x = 5;
+   };
+   f(a, b, c);
+   console.log(b);
+};
+c(7, 9, 10);
+console.log(b);
+console.log(x);
+
+
+console.log(bar);
+console.log(baz);
+foo();
+function foo() {
+   console.log('Hola!');
+}
+var bar = 1;
+var baz = 2;
+var instructor = 'Tony';
+if (true) {
+   var instructor = 'Franco';
+}
+console.log(instructor);
+var instructor = 'Tony';
+console.log(instructor);
+(function () {
+   if (true) {
+      var instructor = 'Franco';
+      console.log(instructor);
+   }
+})();
+console.log(instructor);
+var instructor = 'Tony';
+let pm = 'Franco';
+if (true) {
+   var instructor = 'The Flash';
+   let pm = 'Reverse Flash';
+   console.log(instructor);
+   console.log(pm);
+}
+console.log(instructor);
+console.log(pm);
+
+//La diferencia entre var y let es que var es una variable global y let es una variable local
+//La diferencia entre var y const es que const no se puede modificar
+//La diferencia entre let y const es que const no se puede modificar
+//La diferencia entre var y function es que function es una funcion y var es una variable
+//La diferencia entre let y function es que function es una funcion y let es una variable
+//El contexto global y el contexto de una función tienen su propio basical environment
+//Si declaro una variable en el contexto global y despues la declaro en el contexto 
+//de una funcion, la variable global se modifica
+//Si declaro una función en el contexto local habiendola declarado con el mismo nombre, 
+//entonces se toma la variable definida en el contexto global
+
+//Coerción de Datos
+//¿Cuál crees que será el resultado de la ejecución de estas operaciones?:
+//Var reserva un espacio de memoria para guardar el valor de la variable en el basical environment
+//Let y const no hacen hoisting
+
+// newFunction();
+// {}[0]
+// parseInt("09")
+// 5 && 2
+// 2 && 5
+// 5 || 0
+// 0 || 5
+// [3]+[3]-[10]
+// 3>2>1
+// [] == ![]
+// Si te quedó alguna duda repasá con este artículo.
+
+// function newFunction() {
+//     6 / "3";
+//     "2" * "3";
+//     4 + 5 + "px";
+//     "$" + 4 + 5;
+//     "4" - 2;
+//     "4px" - 2;
+//     7 / 0;
+// }
+// newFunction();
+// {}[0]
+// parseInt("09")
+// 5 && 2
+// 2 && 5
+// 5 || 0
+// 0 || 5
+// [3]+[3]-[10]
+// 3>2>1
+// [] == ![]
+// Si te quedó alguna duda repasá con este artículo.
+
+// function newFunction() {
+//     6 / "3";
+//     "2" * "3";
+//     4 + 5 + "px";
+//     "$" + 4 + 5;
+//     "4" - 2;
+//     "4px" - 2;
+//     7 / 0;
+// }
+console.log(6 / "3");
+console.log("2" * "3");
+console.log(4 + 5 + "px");
+console.log("$" + 4 + 5);
+console.log("4" - 2);
+console.log("4px" - 2);
+console.log(7 / 0);
+console.log({}[0]);
+console.log(parseInt("09"));
+console.log(5 && 2);
+console.log(2 && 5);
+console.log(5 || 0);
+console.log(0 || 5);
+console.log([3]+[3]-[10]);
+console.log(3>2>1);
+console.log([] == ![]);
+"2" * "3";
+4 + 5 + "px";
+"$" + 4 + 5;
+"4" - 2;
+"4px" - 2;
+7 / 0;
+{}[0];
+parseInt("09");
+5 && 2;
+2 && 5;
+5 || 0;
+0 || 5;
+[3]+[3]-[10];
+3>2>1;
+[] == ![];
