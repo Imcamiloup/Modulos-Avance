@@ -6,8 +6,19 @@ function quickSort(array) {
   // el array recibido como parámetro
   // Devolver el array ordenado resultante
   // Tu código:
+  
 
 }
+
+
+
+
+
+console.log('hola'.charCodeAt());D
+
+
+
+
 
 function mergeSort(array) {
   // Implementar el método conocido como mergeSort para ordenar de menor a mayor
